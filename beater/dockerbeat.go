@@ -13,11 +13,11 @@ import (
 	"github.com/elastic/beats/libbeat/logp"
 	"github.com/elastic/beats/libbeat/publisher"
 
-	"github.com/fsouza/go-dockerclient"
+	"github.com/ykyuen/go-dockerclient"
 
-	"github.com/ingensi/dockerbeat/calculator"
-	"github.com/ingensi/dockerbeat/config"
-	"github.com/ingensi/dockerbeat/event"
+	"github.com/ykyuen/dockerbeat/calculator"
+	"github.com/ykyuen/dockerbeat/config"
+	"github.com/ykyuen/dockerbeat/event"
 )
 
 // const for event logs

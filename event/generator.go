@@ -2,8 +2,8 @@ package event
 
 import (
 	"github.com/elastic/beats/libbeat/common"
-	"github.com/fsouza/go-dockerclient"
-	"github.com/ingensi/dockerbeat/calculator"
+	"github.com/ykyuen/go-dockerclient"
+	"github.com/ykyuen/dockerbeat/calculator"
 	"strings"
 	"sync"
 	"time"
